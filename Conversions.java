@@ -58,6 +58,38 @@ public class Conversions
             double feet = meters / 0.3048 ;
             System.out.println(meters + " meters is equal to " + feet + " feet.");       
     }
-    
+    if (selection == 5)
+        {
+            System.out.println("Enter ounces: ");
+            double ounces = keyboard.nextDouble();
+            keyboard.nextLine();
+            double milliliters = ounces * 29.5735 ;
+            System.out.println(ounces + " ounces is equal to " + milliliters + " milliliters.");       
+    }
+    if (selection == 6)
+        {
+            System.out.println("Enter milliliters: ");
+            double mls = keyboard.nextDouble();
+            keyboard.nextLine();
+            double ounces = mls / 29.5735 ;
+            System.out.println(ounces + " ounces is equal to " + mls + " milliliters.");       
+    }
+    if (selection == 7)
+        {
+            System.out.println("Enter centimeters: ");
+            double centimeters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double mms = centimeters * 10 ;
+            System.out.println(centimeters + " centimeters is equal to " + mms + " millimeters.");       
+    }
+    if (selection == 8)
+        {
+            System.out.println("Enter millimeters: ");
+            double mms = keyboard.nextDouble();
+            keyboard.nextLine();
+            double cms = mms / 10 ;
+            System.out.println(mms + " millimeters is equal to " + cms + " centimeters.");       
+    }
+
 }
 }
