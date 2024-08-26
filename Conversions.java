@@ -17,8 +17,11 @@ public class Conversions
         System.out.println("4. Meters to Feet");
         System.out.println("5. Ounces to Milliliters");
         System.out.println("6. Milliliters to Ounces");
-        //Add 2 more conversions, each both ways, to add choices 7, 8, 9, and 10.
-        //You can add even more if you would like.
+        System.out.println("7. Centimeters to Millimeters");
+        System.out.println("8. Millimeters to Centimeters");
+        System.out.println("9. Kilometers to Miles");
+        System.out.println("10. Miles to Kilometers");
+       
 
         int selection = keyboard.nextInt();
         keyboard.nextLine();  //go past the endline and be ready for more input
