@@ -41,6 +41,13 @@ public class Conversions
             keyboard.nextLine();
             double celcius = (farenheit - 32) * (5.0 / 9.0) ;
             System.out.println(farenheit + " degrees farenheit is " + celcius + " degrees celcius");        }
-        //add more if statements here.
     }
+    if (selection == 3)
+        {
+            System.out.println("Enter fee: ");
+            double farenheit = keyboard.nextDouble();
+            keyboard.nextLine();
+            double celcius = (farenheit - 32) * (5.0 / 9.0) ;
+            System.out.println(farenheit + " degrees farenheit is " + celcius + " degrees celcius");        }
+        //add more if statements here.
 }
