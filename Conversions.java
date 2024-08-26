@@ -40,14 +40,24 @@ public class Conversions
             double farenheit = keyboard.nextDouble();
             keyboard.nextLine();
             double celcius = (farenheit - 32) * (5.0 / 9.0) ;
-            System.out.println(farenheit + " degrees farenheit is " + celcius + " degrees celcius");        }
-    }
+            System.out.println(farenheit + " degrees farenheit is " + celcius + " degrees celcius");       
+        }
     if (selection == 3)
         {
-            System.out.println("Enter fee: ");
-            double farenheit = keyboard.nextDouble();
+            System.out.println("Enter feet: ");
+            double feet = keyboard.nextDouble();
             keyboard.nextLine();
-            double celcius = (farenheit - 32) * (5.0 / 9.0) ;
-            System.out.println(farenheit + " degrees farenheit is " + celcius + " degrees celcius");        }
-        //add more if statements here.
+            double meters = feet * 0.3048 ;
+            System.out.println(feet + " feet is equal to " + meters + " meters.");       
+    }
+    if (selection == 4)
+        {
+            System.out.println("Enter meters: ");
+            double meters = keyboard.nextDouble();
+            keyboard.nextLine();
+            double feet = meters / 0.3048 ;
+            System.out.println(meters + " meters is equal to " + feet + " feet.");       
+    }
+    
+}
 }
