@@ -90,6 +90,22 @@ public class Conversions
             double cms = mms / 10 ;
             System.out.println(mms + " millimeters is equal to " + cms + " centimeters.");       
     }
+    if (selection == 9)
+        {
+            System.out.println("Enter kilometers: ");
+            double kms = keyboard.nextDouble();
+            keyboard.nextLine();
+            double miles = kms * 0.621371 ;
+            System.out.println(kms + " kilometers is equal to " + miles + " miles.");       
+    }
+    if (selection == 10)
+        {
+            System.out.println("Enter miles: ");
+            double miles = keyboard.nextDouble();
+            keyboard.nextLine();
+            double kms = miles / 0.621371 ;
+            System.out.println(miles + " miles is equal to " + kms + " kilometers.");       
+    }
 
 }
 }
